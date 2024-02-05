@@ -4,16 +4,16 @@ import { RiFlutterFill, RiReactjsFill } from "react-icons/ri";
 
 export const data = [
   {
+    slug: "node",
+    Component: SiNodeDotJs,
+    title: "Node Js",
+    Description: () => <>Hands on node.js for crud apis, multer, forms and mails through smtp </>,
+  },
+  {
     slug: "react",
     Component: SiNextDotJs,
     title: "React",
     Description: () => <>Working as a Front-End Developer and Managing UI.</>,
-  },
-  {
-    slug: "react native",
-    Component: SiNextDotJs,
-    title: "React Native",
-    Description: () => <>Currently working with React Native for mobile application development. </>,
   },
   {
     slug: "next",
@@ -22,23 +22,16 @@ export const data = [
     Description: () => <>Also code in next js for blogging websites </>,
   },
   {
-    slug: "node",
-    Component: SiNodeDotJs,
-    title: "Node Js",
-    Description: () => <>Hands on node.js for crud apis, multer, forms and mails through smtp </>,
+    slug: "typescript",
+    Component: SiNextDotJs,
+    title: "TypeScript",
+    Description: () => <>Worked on different FE and BE projects using TypeScript over the years.</>,
   },
   {
-    slug: "javascript",
+    slug: "golang",
     Component: SiNextDotJs,
-    title: "Javascript",
-    Description: () => <>Worked on ES5 and ES6. But mainly use it for React and React Native app development.</>,
-  },
-  
-  {
-    slug: "map",
-    Component: SiNextDotJs,
-    title: "Map",
-    Description: () => <>Hands on google map Api's for search location, real-time tracking & guidance in my apps.</>,
+    title: "Golang",
+    Description: () => <>Hands on expertise on golang. Using for APIs, Sockets and intra services communication</>,
   },
   {
     slug: "firebase",
@@ -50,7 +43,19 @@ export const data = [
     slug: "git",
     Component: SiNextDotJs,
     title: "Git",
-    Description: () => <>Good Skill set on GIT as well.</>,
+    Description: () => <>Version managing of codebase using GIT. Monorepo, Open Source Fork model and other practices too.</>,
+  },
+  {
+    slug: "react native",
+    Component: SiNextDotJs,
+    title: "React Native",
+    Description: () => <>Currently working with React Native for mobile application development. </>,
+  },
+  {
+    slug: "map",
+    Component: SiNextDotJs,
+    title: "Map",
+    Description: () => <>Hands on google map Api's for search location, real-time tracking & guidance in my apps.</>,
   },
   
 ];
