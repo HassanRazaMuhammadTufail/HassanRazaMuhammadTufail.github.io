@@ -18,8 +18,8 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <My_Section row nopadding>
-          <Img src="/images/img.png" />
-          <My_SectionTitle center> Sr. Full Stack Engineer</My_SectionTitle>
+          <Img style={{width:'40%'}} src="/images/img.png" />
+          <My_SectionTitle center> Software Engineer / Lead</My_SectionTitle>
         </My_Section>
         <SectionTitle main center>
           Hey there,

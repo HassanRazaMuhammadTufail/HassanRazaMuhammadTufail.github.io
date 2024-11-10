@@ -27,6 +27,34 @@ const Experience = () => (
     <SectionDivider />
     <SectionTitle main>Experience</SectionTitle>
     <GridContainer>
+    <BlogCard>
+        <div
+          style={{
+            flexDirection: "row",
+            display: "flex",
+            marginLeft: 10,
+          }}
+        >
+          <HeaderThree>Tenderd</HeaderThree>
+          <TagList>
+            <Tag>Senior Software Engineer</Tag>
+          </TagList>
+          <HeaderFour>Apr 2023 - Present</HeaderFour>
+        </div>
+
+        <CardInfo className="card-info">
+        - Participating in sprint plannings and defining sprint goals.
+        <br />
+        - Making sure the team is align as per sprint goals and taking up responsibility to deliver.
+        <br />
+        - Added Kafka to ingest data from different microservice managed by third party.
+        <br />
+        - Supervising and helping team members to achieve team goals.
+        </CardInfo>
+        <div></div>
+        <UtilityList>
+        </UtilityList>
+      </BlogCard>
       <BlogCard>
         <div
           style={{
@@ -37,27 +65,23 @@ const Experience = () => (
         >
           <HeaderThree>Clozer.io</HeaderThree>
           <TagList>
-            <Tag>Sr. Software Engineer - Full Stack</Tag>
+            <Tag>Senior Software Engineer</Tag>
           </TagList>
-          <HeaderFour>Sept 2023 - Present</HeaderFour>
+          <HeaderFour>Jan 2023 - Mar 2024</HeaderFour>
         </div>
 
         <CardInfo className="card-info">
-          - Managing and Upgrading the backend and frontend, adding features, optimizing, and refactoring.
-          <br />
-          - Integrating 3rd party music platforms in our system.
-          <br />
-          - Updated Authentication flow on the frontend.
+        - Led backend development:
+        <br />
+        - Developed an Intelligent service to get playable links of artist's popular tracks and albums from across multiple platforms e.g. Spotify, Apple Music, Deezer, Soundcloud, etc.
+        <br />
+        - Build custom events tracking tool for tracking user journey and added around 150 events across the platform. This also helped us provide artist's useful analytics to optimize their page and help them grow.
+        <br />
+        - Updated Authentication flow on the frontend.
+        Managed the refactoring of platform including frontend and backend, added new features, integrations and drove product to overall growth.
         </CardInfo>
         <div></div>
         <UtilityList>
-          {/* <ExternalLinks
-            href={
-              "https://www.linkedin.com/in/ahsan-muneer/overlay/1635538440061/single-media-viewer/?profileId=ACoAAB09QVIBm1PJsyNgXjwRNJ_P3FveLEE3hAM"
-            }
-          >
-            Experience Letter
-          </ExternalLinks> */}
         </UtilityList>
       </BlogCard>
       <BlogCard>
@@ -96,13 +120,6 @@ const Experience = () => (
         </CardInfo>
         <div></div>
         <UtilityList>
-          {/* <ExternalLinks
-            href={
-              "https://drive.google.com/file/d/1VcvodWu2yctXfSmXK4H1PcNK5yPSW0w_/view"
-            }
-          >
-            Experience Letter
-          </ExternalLinks> */}
         </UtilityList>
       </BlogCard>
       <BlogCard>

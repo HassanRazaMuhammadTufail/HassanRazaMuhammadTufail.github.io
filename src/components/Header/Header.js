@@ -28,6 +28,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact" legacyBehavior>
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>
       {/* <li>
         <a href="https://blog.vipuljha.com">
           <NavLink>Blog</NavLink>
