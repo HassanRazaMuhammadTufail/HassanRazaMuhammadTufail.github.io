@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install libpng-dev
+        run: sudo apt-get update && sudo apt-get install -y libpng-dev
       - name: Detect package manager
         id: detect-package-manager
         run: |
