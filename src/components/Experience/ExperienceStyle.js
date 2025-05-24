@@ -16,7 +16,6 @@ export const GridContainer = styled.section`
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding-top: 3rem;
   padding-bottom: 3rem;
-  place-items: center;
   column-gap: 1rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {

@@ -39,7 +39,7 @@ const Experience = () => (
           <TagList>
             <Tag>Senior Software Engineer</Tag>
           </TagList>
-          <HeaderFour>Apr 2023 - Present</HeaderFour>
+          <HeaderFour>Apr 2024 - Present</HeaderFour>
         </div>
 
         <CardInfo className="card-info">
