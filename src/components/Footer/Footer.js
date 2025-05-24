@@ -23,7 +23,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2020 <Link href="#">  Hassan Raza</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2025 <Link href="#">  Hassan Raza</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/HassanRazaMuhammadTufail">
